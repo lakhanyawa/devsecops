@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(csurf({ cookie: true }));
 
 app.get('/', (req, res) => {
-    res.send(`Hello from Secure Node.js App with CSRF! Your CSRF token is: ${req.csrfToken()}`);
+    res.send(`Hello from Secure Node.js App with CSRF!!!!!!!! Your CSRF token is: ${req.csrfToken()}`);
 });
 
 app.listen(PORT, () => {
